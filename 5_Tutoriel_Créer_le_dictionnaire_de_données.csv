@@ -1,5 +1,5 @@
 ,table_name          ,Nom              ,Signification                 ,Type       ,Format     ,Taille,Obligatoire,Calculée
-,user_table          ,auteur_id       ,id de l'auteur                ,Nombre     ,Entier     ,      ,Oui           ,OUI
+,user_table          ,auteur_id       ,id de l'auteur                ,Nombre     ,Entier     ,      ,Oui           ,Non
 ,user_table          ,auteur_nom       ,Nom de l'auteur               ,Texte      ,Texte      ,100    ,Oui        ,Non
 ,user_table          ,auteur_email     ,Adresse email de l'auteur     ,Texte      ,Email      ,255    ,Oui        ,Non
 ,user_table          ,auteur_avatar    ,Photo de profil de l'auteur   ,Texte      ,URL        ,255    ,Non        ,Non
@@ -13,8 +13,8 @@
 ,article_table       ,article_vues     ,Nombre de lectures            ,Nombre     ,Entier     ,       ,Oui        ,Oui
 ,article_table       ,commentaire_texte,Contenu du commentaire        ,Texte      ,Texte long ,       ,Oui        ,Non
 ,article_table       ,commentaire_date ,Date du commentaire           ,Date       ,JJ/MM/AAAA hh:mm,  ,Oui        ,Non
-,article_table       ,Foreign_auteur_id ,foreign key de lauteur       ,Nombre       ,Entier,  ,Oui        ,OUI
-,article_table       ,Foreign_categorie_id ,foreign key de ategorie     ,Nombre       ,Entier,  ,Oui        ,OUI
+,article_table       ,Foreign_auteur_id ,foreign key de lauteur       ,Nombre       ,Entier,  ,Oui        ,Non
+,article_table       ,Foreign_categorie_id ,foreign key de ategorie     ,Nombre       ,Entier,  ,Oui        ,Non
 
 
 
